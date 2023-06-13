@@ -1,0 +1,5 @@
+kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.4.2/deploy/longhorn.yaml
+
+kubectl get pods \
+--namespace longhorn-system \
+--watch
